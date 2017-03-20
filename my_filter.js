@@ -7,7 +7,9 @@ var playlist = [
 ];
 
 function indieSongs(n) {
-  return n.;
+  if(n.genre == "indie") {
+    return;
+  }
 }
 
 var result = playlist.filter(indieSongs);
